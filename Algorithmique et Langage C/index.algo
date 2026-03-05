@@ -1,0 +1,20 @@
+Algorithme Introduction_C
+        Variables : 
+                    a : entier
+    Debut
+       a <-- 7
+       Afficher (a)
+    Fin 
+Fin
+
+---------------------------------------------------
+Algorithme Introduction_Un_C
+        Variables : 
+                    a : entier
+    Debut
+       Afficher (" Saisir une valeur : )
+       Lire(a)
+       Afficher("Vous avez saisi : ", a)
+    Fin 
+Fin
+----------------------------------------------
