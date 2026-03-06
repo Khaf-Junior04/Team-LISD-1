@@ -10,11 +10,39 @@ Fin
 ---------------------------------------------------
 Algorithme Introduction_Un_C
         Variables : 
-                    a : entier
+                    a, b: entier
     Debut
-       Afficher (" Saisir une valeur : )
-       Lire(a)
-       Afficher("Vous avez saisi : ", a)
+       Afficher (" Saisir deux valeurs : )
+       Lire(a,b)
+       Afficher("Vous avez saisi : ", a," et ",b)
     Fin 
 Fin
 ----------------------------------------------
+Algorithme Introduction_Un_C
+        Variables : 
+                    a, b,somme: entier
+    Debut
+       Afficher (" Saisir deux valeurs : ")
+       Lire(a,b)
+       somme <-- a + b
+       Afficher(a ," + ",b," = ",somme)
+    Fin 
+Fin
+----------------------------------------------
+
+Algorithme Introduction_Un_C
+        Variables : 
+                    note: reel
+   Debut
+      Afficher("Saisir votre note (compris entre 0 et 20) : ")
+      Lire(note)
+
+      Si note <= 9 Alors
+         Afficher("Mauvais note ")
+      Sinon 
+         Afficher ("Bonne note ")
+      FinSi
+    Fin 
+Fin
+
+------------------------------------------------
