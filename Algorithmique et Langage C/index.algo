@@ -46,3 +46,24 @@ Algorithme Introduction_Un_C
 Fin
 
 ------------------------------------------------
+
+Algorithme Moyenne 
+      Variables : 
+                  n_un,n_deux,n_trois, moyenne : reel 
+   Debut
+      Ecrire("Saisir vos notes : ")
+      Lire(n_un,n_deux,n_trois)
+
+      moyenne <-- (n_un + n_deux + n_trois) / 3
+
+      Si moyenne < 0 OU moyenne > 20 Alors 
+         Ecrire("Veuillez saisir vos notes exactes !")
+      Sinon Si moyenne <= 9 Alors
+         Ecrire("Vous avez echoue !")
+      Sinon Si moyenne >= 10 OU moyenne <= 15
+         Ecrire ("Assez bien ")
+      Sinon 
+         Ecrire ("Bien")
+      FinSi
+   Fin
+Fin
