@@ -67,3 +67,44 @@ Algorithme Moyenne
       FinSi
    Fin
 Fin
+-----------------------------------------------------
+
+Algorithme SelonCas
+      variables : 
+                  a : entier
+   Debut
+      Ecrire ("Saisir une valeur (compris entre 1 et 7) : ")
+      Lire(a)
+
+      SELON a Faire :
+         cas 1 :
+            Ecrire("Lundi")
+         cas 2 :
+            Ecrire ("Mardi")
+         cas 3 :
+            Ecrire ("Mercredi")
+         cas 4 :
+            Ecrire("Jeudi")
+         cas 5 :
+            Ecrire ("Vendredi")
+         cas 6 :
+            Ecrire ("Samedi")
+         cas 7 :
+            Ecrire ("Dimanche")
+         default 
+            Ecrire ("Vous n'aveez pas saisi une bonne valeur")
+      FinSelon
+   Fin
+Fin
+
+-----------------------------------------------------
+Algorithme Boucles 
+      Variables : 
+                  compteur : entier 
+   Debut
+      POUR compteur <-- 1 à 10 FAIRE 
+         Ecrire(compteur)
+      FinPour
+   Fin
+Fin
+-----------------------------------------------------
